@@ -1,0 +1,47 @@
+
+
+#grid-container{
+    display: flex;
+    flex-wrap: wrap;
+    width:360px
+}
+
+.grid-block, .one .two, .three, .four, .five, .six, .seven, .eight, .nine, .ten{
+    border:solid 1px;
+    background-color: grey;
+    width: 20px;
+    height: 20px;
+}
+
+
+.one{
+    background-color: rgba(225, 0, 0);
+}
+.two{
+    background-color: rgba(200, 0, 0);
+}
+.three{
+    background-color: rgba(175, 0, 0);
+}
+.four{
+    background-color: rgba(150, 0, 0);
+}
+.five{
+    background-color: rgba(125, 0, 0);
+}
+.six{
+    background-color: rgba(100, 0, 0);
+}
+.seven{
+    background-color: rgba(75, 0, 0);
+}
+.eight{
+    background-color: rgba(50, 0, 0);
+}
+.nine{
+    background-color: rgba(25, 0, 0);
+}
+.ten{
+    background-color: rgba(0, 0, 0);
+}
+ 
